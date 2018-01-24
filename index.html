@@ -15,43 +15,79 @@
 	<header>
 		<div class="navbar-fixed">
 			<nav>
-				<div class="nav-wrapper red accent-4">
+				<div class="nav-wrapper deep-orange accent-4">
 					<a href="#" class="brand-logo">BeatBy38</a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
-						<li><a href="sass.html">Accueil</a></li>
-						<li><a href="badges.html">News</a></li>
-						<li><a href="collapsible.html">Contact</a></li>
+						<li><a href="#">Accueil</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
 		</div>
 	</header>
 
-	<body>
+	<body class="black">
 	
-		<h1>BeatBy38</h1>
-		<p>La meilleur association de jeux de combat</p>
-		  <div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">button</a>
-    </div>
-    <div class="carousel-item red white-text" href="#one!">
-      <h2>First Panel</h2>
-      <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item amber white-text" href="#two!">
-      <h2>Second Panel</h2>
-      <p class="white-text">This is your second panel</p>
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-      <h2>Third Panel</h2>
-      <p class="white-text">This is your third panel</p>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-      <h2>Fourth Panel</h2>
-      <p class="white-text">This is your fourth panel</p>
-    </div>
-  </div>
+		<h1 class="center-align light green-text">BeatBy38</h1>
+		<p class="center-align light green-text">La meilleur association de jeux de combat</p>
+
+
+
+
+		<div class="slider">
+			<ul class="slides black">
+				<li>
+					<img src="Ressources/Baniere.png"> <!-- random image -->
+					<div class="caption left-align">
+						<h3 class="light green-text">BeatBy38</h3>
+						<h5 class="light green-text">L'asso Grenobloise de jeux de combats</h5>
+					</div>
+				</li>
+				<li>
+					<img src="Ressources/Sub-zero.png" height="500"> <!-- random image -->
+					<div class="caption right-align">
+						<h3 class="light green-text">Mortal Kombat</h3>
+						<h5 class="light green-text">Finish him !</h5>
+					</div>
+				</li>
+				<li>
+					<img src="Ressources/Dbf.jpg"> <!-- random image -->
+					<div class="caption left-align">
+						<h3 class="light green-text">Dragon Ball FighterZ</h3>
+						<h5 class="light green-text">Kamehameha !!</h5>
+					</div>
+				</li>
+				<li>
+					<img src="Ressources/Sf5.jpg"> <!-- random image -->
+					<div class="caption right-align">
+						<h3 class="light green-text">Street Fighter 5</h3>
+						<h5 class="light green-text">Hadoken !</h5>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+
+
+
+		<!--<div class="carousel carousel-slider center" data-indicators="true">
+			<div class="carousel-fixed-item center">
+				<a class="btn waves-effect white black-text darken-text-2">button</a>
+			</div>
+			<div class="carousel-item red white-text" href="#one!">
+				<img src="Ressources/Baniere.png">
+			</div>
+			<div class="carousel-item black white-text" href="#two!">
+				<img src="Ressources/Sub-zero.png">
+			</div>
+			<div class="carousel-item green white-text" href="#three!">
+				<img src="Ressources/Dbf.jpg">
+			</div>
+			<div class="carousel-item blue white-text" href="#four!">
+				<img src="Ressources/Sf5.jpg">
+			</div>
+		</div>-->
 	</body>
 
 	<footer class="page-footer light-green">
@@ -64,10 +100,10 @@
 				<div class="col l4 offset-l2 s12">
 					<h5 class="white-text">Links</h5>
 					<ul>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-						<li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Youtube</a></li>
+						<li><a class="grey-text text-lighten-3" href="#!">Twitch</a></li>
 					</ul>
 				</div>
 			</div>
@@ -88,6 +124,7 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 	<script type="text/javascript">$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
+	<script type="text/javascript">$(document).ready(function(){$('.slider').slider(); $('.slider').height(1000);$('.slides').height(950);});</script>
 
 
 
